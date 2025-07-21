@@ -51,10 +51,7 @@
       gap: 30px;
       margin-bottom: 40px;
       flex-wrap: wrap;
-      justify-content: flex-start;
-      width: 100%;
-      max-width: 1000px;
-      text-align: left;
+      justify-content: center;
     }
 
     .profile-img {
@@ -79,18 +76,12 @@
     }
 
     .contact {
-      position: fixed;
-      top: 50px;
-      right: 50px;
+      position: absolute;
+      top: 20px;
+      right: 30px;
       text-align: right;
       line-height: 1.6;
       font-size: 0.9rem;
-      z-index: 1000;
-      background: rgba(26, 26, 46, 0.9);
-      padding: 15px;
-      border-radius: 10px;
-      border: 1px solid rgba(64, 196, 255, 0.3);
-      backdrop-filter: blur(10px);
     }
 
     .contact p {
@@ -225,17 +216,16 @@
 
     @media (max-width: 768px) {
       .contact {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        font-size: 0.8rem;
-        padding: 10px;
+        position: relative;
+        top: auto;
+        right: auto;
+        text-align: center;
+        margin-bottom: 20px;
       }
 
       .profile-section {
         flex-direction: column;
         text-align: center;
-        justify-content: center;
       }
 
       .profile-info h1 {

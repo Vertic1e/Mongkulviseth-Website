@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,8 @@
       box-sizing: border-box;
     }
 
-    body, html {
+    body,
+    html {
       height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -28,7 +29,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: 
+      background-image:
         linear-gradient(90deg, rgba(64, 196, 255, 0.1) 1px, transparent 1px),
         linear-gradient(rgba(64, 196, 255, 0.1) 1px, transparent 1px);
       background-size: 50px 50px;
@@ -74,8 +75,8 @@
       color: #FFD700;
       margin-bottom: 10px;
     }
-    
-    .profile-info p{
+
+    .profile-info p {
       font-size: 1rem;
       color: #ffffff;
       margin-botton: 10px;
@@ -133,8 +134,15 @@
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .content-section h3 {
@@ -199,7 +207,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      align-items: center;
+      text-align: center;
     }
 
     .skill-item p {
@@ -271,6 +279,7 @@
     .timeline-item h4 {
       color: #FFD700;
       margin-bottom: 5px;
+      text-align: center;
     }
 
     .timeline-item .date {
@@ -312,6 +321,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
@@ -336,11 +346,18 @@
     <!-- Bio Section -->
     <div id="bio" class="content-section active">
       <h3>About Me</h3>
-      <p>I am a passionate and forward-thinking Computer Scientist with a strong interest in Cybersecurity and AI Automation. Grounded in a solid foundation of computer science principles and problem-solving skills, I actively explore how emerging technologies can be applied to solve real-world challenges.</p>
+      <p>I am a passionate and forward-thinking Computer Scientist with a strong interest in Cybersecurity and AI
+        Automation. Grounded in a solid foundation of computer science principles and problem-solving skills, I actively
+        explore how emerging technologies can be applied to solve real-world challenges.</p>
       <br>
-      <p>I’ve contributed to impactful projects including an AI-powered chatbot that streamlined customer support for SMEs, a VR safety simulation that modernized workplace onboarding, and hands-on penetration testing to identify and mitigate security vulnerabilities. My experience also includes hand-on work in network architecture and security, enhancing system reliability and defense.</p>
+      <p>I’ve contributed to impactful projects including an AI-powered chatbot that streamlined customer support for
+        SMEs, a VR safety simulation that modernized workplace onboarding, and hands-on penetration testing to identify
+        and mitigate security vulnerabilities. My experience also includes hand-on work in network architecture and
+        security, enhancing system reliability and defense.</p>
       <br>
-      <p>Always eager to learn, I stay up to date with the latest advancements in cybersecurity and automation. My goal is to continue developing innovative, user-centered solutions that make a tangible impact in both enterprise and community settings.</p>
+      <p>Always eager to learn, I stay up to date with the latest advancements in cybersecurity and automation. My goal
+        is to continue developing innovative, user-centered solutions that make a tangible impact in both enterprise and
+        community settings.</p>
     </div>
 
     <!-- Education Section -->
@@ -350,19 +367,24 @@
         <h4>Bachelor of Computer Science</h4>
         <div class="date">March 2020 - November 2023</div>
         <p><strong>University of Auckland (New Zealand)</strong></p>
-        <p>Specialized in Computer Network, Software Engineering, and Data Science. During my time at university, I gained a strong theoretical programing and networking foundations and applied it through hands-on projects, research, and team collaborations that prepared me for real-world problem-solving in modern tech environments.</p>
+        <p>Specialized in Computer Network, Software Engineering, and Data Science. During my time at university, I
+          gained a strong theoretical programing and networking foundations and applied it through hands-on projects,
+          research, and team collaborations that prepared me for real-world problem-solving in modern tech environments.
+        </p>
       </div>
       <div class="timeline-item">
         <h4>Foundational Education</h4>
         <div class="date">Febuary 2019 - November 2020</div>
         <p><strong>Taylor College (New Zealand)</strong></p>
-        <p>Focused on Mathematics and Computer Science fundamentals. Participated in programming competitions and technology clubs.</p>
+        <p>Focused on Mathematics and Computer Science fundamentals. Participated in programming competitions and
+          technology clubs.</p>
       </div>
       <div class="timeline-item">
-      <h4>High School</h4>
-      <div class="date">2015 - 2018</div>
-      <p><strong>Sisowat Highshool (Cambodia)</strong></p>
-      <p>Completed high school with a strong foundation in Mathematics(A+) and Physic(A), preparing me for university-level studies in Computer Science.</p>
+        <h4>High School</h4>
+        <div class="date">2015 - 2018</div>
+        <p><strong>Sisowat Highshool (Cambodia)</strong></p>
+        <p>Completed high school with a strong foundation in Mathematics(A+) and Physic(A), preparing me for
+          university-level studies in Computer Science.</p>
       </div>
     </div>
 
@@ -372,43 +394,63 @@
       <div class="timeline-item">
         <h4>CompTIA Network+</h4>
         <div class="date">2024</div>
-        <p>The CompTIA Network+ certification validates practical knowledge in establishing and maintaining network connectivity, configuring services, implementing cloud and virtual network solutions, documenting infrastructure, and applying monitoring, troubleshooting, and hardening techniques to ensure secure and efficient network operations.</p>
+        <p>The CompTIA Network+ certification validates practical knowledge in establishing and maintaining network
+          connectivity, configuring services, implementing cloud and virtual network solutions, documenting
+          infrastructure, and applying monitoring, troubleshooting, and hardening techniques to ensure secure and
+          efficient network operations.</p>
       </div>
       <div class="timeline-item">
         <h4>CompTIA Security+</h4>
         <div class="date">2024</div>
-        <p>CompTIA Security+ certification demonstrating expertise in security concepts, threats, vulnerabilities, mitigations, security architecture, security operations, and security program management and oversight.</p>
+        <p>CompTIA Security+ certification demonstrating expertise in security concepts, threats, vulnerabilities,
+          mitigations, security architecture, security operations, and security program management and oversight.</p>
       </div>
       <div class="timeline-item">
         <h4>CompTIA PenTest+</h4>
         <div class="date">2025</div>
-        <p>CompTIA PenTest+ certification validating hands-on skills in penetration testing, vulnerability assessment, and management—demonstrating the ability to evaluate and enhance an organization’s network resilience against cyberattacks.</p></div>
-        <div class="timeline-item">
-          <h4>Common Purpose Certification</h4>
-          <div class="date">2023</div>
-          <p>I earned this certification through a micro-internship focused on applying our technical skills to address global challenges. My contribution centered on leveraging technology to help reduce inequality. </p>
-        </div>
+        <p>CompTIA PenTest+ certification validating hands-on skills in penetration testing, vulnerability assessment,
+          and management—demonstrating the ability to evaluate and enhance an organization’s network resilience against
+          cyberattacks.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Common Purpose Certification</h4>
+        <div class="date">2023</div>
+        <p>I earned this certification through a micro-internship focused on applying our technical skills to address
+          global challenges. My contribution centered on leveraging technology to help reduce inequality. </p>
+      </div>
       <h3>Achievements</h3>
       <div class="timeline-item">
         <h4>Outstanding Acheivement in Object Oriented Software Development</h4>
         <div class="date">2021</div>
-        <p>I received an Outstanding Achievement award in Object-Oriented Software Development for demonstrating exceptional understanding of core programming principles, design patterns, and clean coding practices. This recognition highlights my ability to build robust, scalable, and maintainable software solutions using object-oriented methodologies.</p>
+        <p>I received an Outstanding Achievement award in Object-Oriented Software Development for demonstrating
+          exceptional understanding of core programming principles, design patterns, and clean coding practices. This
+          recognition highlights my ability to build robust, scalable, and maintainable software solutions using
+          object-oriented methodologies.</p>
       </div>
       <div class="timeline-item">
         <h4>Outstanding Acheivement in Computer Organisation</h4>
         <div class="date">2021</div>
-        <p>I was recognized with an Outstanding Achievement award in Computer Organisation for my strong grasp of low-level computing concepts, including digital logic, processor architecture, memory management, and system-level programming. This award reflects my ability to understand and optimize how hardware and software interact at the fundamental level.</p>
+        <p>I was recognized with an Outstanding Achievement award in Computer Organisation for my strong grasp of
+          low-level computing concepts, including digital logic, processor architecture, memory management, and
+          system-level programming. This award reflects my ability to understand and optimize how hardware and software
+          interact at the fundamental level.</p>
       </div>
       <div class="timeline-item">
         <h4>Outstanding Acheivement in Introduction to Computer Systems</h4>
         <div class="date">2020</div>
-        <p>I earned an Outstanding Achievement award in Introduction to Computer Systems, demonstrating a strong understanding of system fundamentals such as operating systems, computer architecture, and low-level programming. This achievement reflects my ability to grasp complex technical concepts and apply them effectively in practical computing environments.</p>
+        <p>I earned an Outstanding Achievement award in Introduction to Computer Systems, demonstrating a strong
+          understanding of system fundamentals such as operating systems, computer architecture, and low-level
+          programming. This achievement reflects my ability to grasp complex technical concepts and apply them
+          effectively in practical computing environments.</p>
       </div>
       <div class="timeline-item">
-        <h4>Outstanding Acheivement in Principles of Programming 
-</h4>
+        <h4>Outstanding Acheivement in Principles of Programming
+        </h4>
         <div class="date">2020</div>
-        <p>I was awarded Outstanding Achievement in Principles of Programming for demonstrating excellence in foundational programming concepts, algorithmic thinking, and software problem-solving. This recognition reflects my ability to write clear, efficient, and well-structured code while adapting to different programming paradigms.</p>
+        <p>I was awarded Outstanding Achievement in Principles of Programming for demonstrating excellence in
+          foundational programming concepts, algorithmic thinking, and software problem-solving. This recognition
+          reflects my ability to write clear, efficient, and well-structured code while adapting to different
+          programming paradigms.</p>
       </div>
     </div>
     <!-- Experiences Section -->
@@ -416,11 +458,16 @@
       <h3>Professional Experience</h3>
       <div class="skill-grid">
         <div class="skill-item">
-          <h4>Home Lab Setup & Practical Experience</h4>
-          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 15px; font-weight: bold;">May 2025 - Present</div>
-          <p>Designed and deployed a virtual lab environment using VirtualBox/VMware with Kali Linux, Windows Server, Metasploitable, DVWA, and OWASP Juice Shop. Conducted network and service enumeration with Nmap, Netcat, and Masscan, and performed vulnerability assessments using Nessus Essentials and OpenVAS.</p>
+          <h4>Home Lab Experiment</h4>
+          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 15px; font-weight: bold;">May 2025
+            - Present</div>
+          <p>Designed and deployed a virtual lab environment using VirtualBox/VMware with Kali Linux, Windows Server,
+            Metasploitable, DVWA, and OWASP Juice Shop. Conducted network and service enumeration with Nmap, Netcat, and
+            Masscan, and performed vulnerability assessments using Nessus Essentials and OpenVAS.</p>
           <br>
-          <p>Exploited known vulnerabilities with tools like Metasploit and SQLmap, and tested web applications for XSS, SQLi, and CSRF using Burp Suite and OWASP ZAP. Analyzed traffic with Wireshark, simulated wireless attacks using Aircrack-ng, and documented findings in professional pentest-style reports.</p>
+          <p>Exploited known vulnerabilities with tools like Metasploit and SQLmap, and tested web applications for XSS,
+            SQLi, and CSRF using Burp Suite and OWASP ZAP. Analyzed traffic with Wireshark, simulated wireless attacks
+            using Aircrack-ng, and documented findings in professional pentest-style reports.</p>
           <div class="skill-tags">
             <span class="skill-tag">VirtualBox</span>
             <span class="skill-tag">Kali Linux</span>
@@ -431,14 +478,19 @@
             <span class="skill-tag">Penetration Testing</span>
           </div>
         </div>
-        
+
         <div class="skill-item">
           <h4>Developer and Tester</h4>
-          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">May 2023 - July 2024</div>
+          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">May 2023
+            - July 2024</div>
           <p style="color: #FFD700; font-weight: bold; margin-bottom: 15px;">Profinish</p>
-          <p>Delivered an innovative AI chatbot solution for LinkAlliance to transform frontline worker onboarding and health & safety training. Built using Botpress, StackAI, and Zapier, the chatbot provided interactive, knowledge-based responses and ChatGPT-powered conversations.</p>
+          <p>Delivered an innovative AI chatbot solution for LinkAlliance to transform frontline worker onboarding and
+            health & safety training. Built using Botpress, StackAI, and Zapier, the chatbot provided interactive,
+            knowledge-based responses and ChatGPT-powered conversations.</p>
           <br>
-          <p>Accessible via mobile and social media platforms, it enabled 24/7 access to critical information, delivering accurate responses in under 3 seconds. This user-centric solution reduced onboarding and training costs by 65%.</p>
+          <p>Accessible via mobile and social media platforms, it enabled 24/7 access to critical information,
+            delivering accurate responses in under 3 seconds. This user-centric solution reduced onboarding and training
+            costs by 65%.</p>
           <div class="skill-tags">
             <span class="skill-tag">Botpress</span>
             <span class="skill-tag">StackAI</span>
@@ -447,14 +499,19 @@
             <span class="skill-tag">AI Development</span>
           </div>
         </div>
-        
+
         <div class="skill-item">
           <h4>Tech Lead Developer</h4>
-          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">February 2023 - May 2023</div>
+          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">February
+            2023 - May 2023</div>
           <p style="color: #FFD700; font-weight: bold; margin-bottom: 15px;">Profinish</p>
-          <p>Contributed to the full lifecycle of a Virtual Reality safety training project focused on work-from-height scenarios. Independently built a functional VR environment using Unreal Engine, optimizing asset integration for cost-efficiency.</p>
+          <p>Contributed to the full lifecycle of a Virtual Reality safety training project focused on work-from-height
+            scenarios. Independently built a functional VR environment using Unreal Engine, optimizing asset integration
+            for cost-efficiency.</p>
           <br>
-          <p>The immersive solution significantly enhanced the onboarding experience and achieved a 60% reduction in operational costs. Integrated data collection features provided valuable insights into trainee performance.</p>
+          <p>The immersive solution significantly enhanced the onboarding experience and achieved a 60% reduction in
+            operational costs. Integrated data collection features provided valuable insights into trainee performance.
+          </p>
           <div class="skill-tags">
             <span class="skill-tag">Unreal Engine</span>
             <span class="skill-tag">VR Development</span>
@@ -464,16 +521,20 @@
           </div>
         </div>
       </div>
-      
+
       <h3 style="margin-top: 50px;">Other Experience</h3>
       <div class="skill-grid">
         <div class="skill-item">
           <h4>Product Dispenser</h4>
-          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">June 2024 - May 2025</div>
+          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">June 2024
+            - May 2025</div>
           <p style="color: #FFD700; font-weight: bold; margin-bottom: 15px;">Lowie Recruitment</p>
-          <p>Worked in dairy production with responsibilities including ingredient dispensing, weighing, and ensuring compliance with food safety standards. Demonstrated physical capability by safely handling and lifting 25kg bags.</p>
+          <p>Worked in dairy production with responsibilities including ingredient dispensing, weighing, and ensuring
+            compliance with food safety standards. Demonstrated physical capability by safely handling and lifting 25kg
+            bags.</p>
           <br>
-          <p>Maintained good hygiene standards and proven ability to collaborate effectively in a team environment with clear, efficient communication.</p>
+          <p>Maintained good hygiene standards and proven ability to collaborate effectively in a team environment with
+            clear, efficient communication.</p>
           <div class="skill-tags">
             <span class="skill-tag">Food Safety</span>
             <span class="skill-tag">3WS System</span>
@@ -481,14 +542,17 @@
             <span class="skill-tag">Quality Control</span>
           </div>
         </div>
-        
+
         <div class="skill-item">
           <h4>Machine Operator</h4>
-          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">September 2023 - June 2024</div>
+          <div class="date" style="color: #40c4ff; font-size: 0.9rem; margin-bottom: 10px; font-weight: bold;">September
+            2023 - June 2024</div>
           <p style="color: #FFD700; font-weight: bold; margin-bottom: 15px;">Enterprise Recruitment</p>
-          <p>Worked in plastic production, demonstrating strong attendance, reliability, and commitment to quality. Thrived in a fast-paced environment while collaborating effectively within a team.</p>
+          <p>Worked in plastic production, demonstrating strong attendance, reliability, and commitment to quality.
+            Thrived in a fast-paced environment while collaborating effectively within a team.</p>
           <br>
-          <p>Operated machinery such as mini forklifts and pallet trucks, and assembled components into final products with attention to detail. Consistently upheld high quality standards throughout the production process.</p>
+          <p>Operated machinery such as mini forklifts and pallet trucks, and assembled components into final products
+            with attention to detail. Consistently upheld high quality standards throughout the production process.</p>
           <div class="skill-tags">
             <span class="skill-tag">Machine Operation</span>
             <span class="skill-tag">Forklift Operation</span>
@@ -620,23 +684,28 @@
       <div class="project-grid">
         <div class="project-item">
           <h4>E-Commerce Platform</h4>
-          <p>Full-stack web application built with React and Node.js. Features include user authentication, payment processing, and inventory management.</p>
-          <p><strong>Technologies:</strong> React, Node.js, MongoDB, Stripe API</p>
+          <p>Designed and developed a full-stack web app using HTML, JavaScript, and CSS with Telegram API integration.
+            Features include order placement, cart management, geolocation via Leaflet, payment proof upload, and order
+            history. A Telegram bot notifies the client of customer activity in real time. <a
+              href=https://github.com/Vertic1e/KonSoup40>View Project</a></p>
+          <p><strong>Technologies:</strong> HTML, Javascript, CSS, github, Telegram API</p>
         </div>
         <div class="project-item">
-          <h4>Task Management App</h4>
-          <p>Mobile application for task tracking and team collaboration. Implemented real-time updates and push notifications.</p>
-          <p><strong>Technologies:</strong> React Native, Firebase, Redux</p>
+          <h4>FiNoodle</h4>
+          <p>a Python application that automates conversion between client-specified question formats and Moodle XML.
+            This tool reduced quiz creation workload by 70% through robust error checking and efficient formatting,
+            significantly improving the accuracy and reliability of Moodle quizzes.<a
+              href=https://github.com/uoa-compsci399-s2-2022/Finale>View Project</a></p>
+          <p><strong>Technologies:</strong> Python, Moodle, github</p>
         </div>
         <div class="project-item">
-          <h4>Data Visualization Dashboard</h4>
-          <p>Interactive dashboard for analyzing business metrics with real-time data updates and customizable charts.</p>
-          <p><strong>Technologies:</strong> Python, D3.js, Flask, PostgreSQL</p>
-        </div>
-        <div class="project-item">
-          <h4>Machine Learning Model</h4>
-          <p>Predictive model for customer behavior analysis using machine learning algorithms and data preprocessing.</p>
-          <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas, NumPy</p>
+          <h4>BotTalk</h4>
+          <p>an AI-powered chatbot for SMEs in Cambodia, designed to automate customer service, recommend products,
+            process orders, and securely collect customer data. Built with a knowledge-based and flow-design
+            architecture, BotTalk enhances engagement, improves efficiency, and reduces customer support costs by over
+            $500/month through 24/7 personalized automation.<a
+              href=https://www.facebook.com/profile.php?id=61572726967783>View Project</a></p>
+          <p><strong>Technologies:</strong> Botpress, ChatGPT, Zapier, API, Javascript</p>
         </div>
       </div>
     </div>
@@ -664,4 +733,5 @@
     }
   </script>
 </body>
+
 </html>

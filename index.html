@@ -1,16 +1,105 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mongkulviseth Rithy - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://i.ibb.co/DK9xDMK/circuit-dark.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .btn {
+      border: 2px dashed #FFD700;
+      border-radius: 50px;
+      padding: 10px 25px;
+      background-color: transparent;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #FFD700;
+      color: black;
+      border-style: solid;
+    }
+  </style>
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+  <div class="contact">
+    <p>Tel: +64 2108260944<br>+855 17714577</p>
+    <p>Email: rm.visethegmail.com</p>
+  </div>
 
+  <div class="container">
+    <img src="your-photo.jpg" alt="Mongkulviseth Rithy" class="profile-img" />
+    <h1>Mongkulviseth Rithy</h1>
+    <h2>Computer Scientist</h2>
+
+    <div class="buttons">
+      <button class="btn">Bio</button>
+      <button class="btn">Education</button>
+      <button class="btn">Certificates</button>
+      <button class="btn">Experiences</button>
+      <button class="btn">Skills</button>
+      <button class="btn">Projects</button>
+    </div>
+  </div>
+</body>
 </html>
